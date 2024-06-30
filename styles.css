@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header .top-bar {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header .top-bar .brands span {
+    margin: 0 1rem;
+}
+
+header .main-header {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .main-header .logo h1 {
+    height: 50px;
+}
+
+header .main-header .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .main-header .main-nav ul li {
+    margin: 0 1rem;
+}
+
+header .main-header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+header .main-header .main-nav ul li a:hover {
+    background-color: #444;
+}
+
+header .main-header .search-cart {
+    display: flex;
+    align-items: center;
+}
+
+header .main-header .search-cart input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+header .main-header .search-cart .cart-icon,
+header .main-header .search-cart .user-icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}

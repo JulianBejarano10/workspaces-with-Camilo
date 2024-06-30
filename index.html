@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MotorBiker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="brands">
+                <span>AKT</span>
+                <span>Benelli</span>
+                <span>BMW</span>
+                <span>Ducati</span>
+                <span>Honda</span>
+                <span>Kawasaki</span>
+                <!-- Aqui añadimos las marcas de motos en Colombia -->
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="logo">
+                <h1>MOTORBIKER</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#new-collection">NUEVA COLECCION</a></li>
+                    <li><a href="#bikes">MOTOCICLETAS</a></li>
+                    <li><a href="#accessories">PARA LA MOTO</a></li>
+                    <li><a href="#rider">PARA EL MOTOCICLISTA</a></li>
+                    <li><a href="#offers">OFERTAS</a></li>
+                </ul>
+            </nav>
+            <div class="search-cart">
+                <input type="text" placeholder="Buscar productos...">
+                <span class="cart-icon">🛒</span>
+                <span class="user-icon">👤</span>
+            </div>
+        </div>
+        <h1>LO MÁS NUEVO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#brands">Marcas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bienvenido a nuestra tienda de accesorios para motocicletas</h2>
+            <p>Encuentra los mejores accesorios para tu motocicleta.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda dedicada a ofrecer los mejores accesorios y componentes para motocicletas.</p>
+        </section>
+        <section id="products">
+            <h2>Productos</h2>
+            <div class="product-list">
+                <!-- Aquí irán los productos -->                 
+            </div>
+        </section>
+        <section id="brands">
+            <h2>Marcas</h2>
+            <p>Trabajamos con las mejores marcas del mercado.</p>
+            <div class="brand-list">
+                <!-- Aquí irán los logos de las marcas -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Accesorios para Motocicletas</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
