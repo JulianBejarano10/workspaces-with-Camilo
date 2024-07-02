@@ -6,67 +6,74 @@ body {
     color: #333;
 }
 
-header .top-bar {
-    background-color: #ff0000;
+header .margen-superior {
+    background-color: #2b2b2b;
     color: #fff;
-    padding: 0.5rem;
+    padding: 0.3rem;
     text-align: center;
 }
 
-header .top-bar .brands span {
+header .margen-superior .marcas-colombia span { 
     margin: 0 1rem;
 }
 
-header .main-header {
+header .logo-motorbiker {
     background-color: #000000;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.25rem 3rem;
 }
 
-header .main-header .logo h1 {
+header .logo-motorbiker .logo img {
     height: 50px;
+    width: 100px;
+    padding: 0rem;
 }
 
-header .main-header .main-nav ul {
+header .logo-motorbiker .menu-principal ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-header .main-header .main-nav ul li {
+header .logo-motorbiker .menu-principal ul li {
     margin: 0 1rem;
 }
 
-header .main-header .main-nav ul li a {
+header .logo-motorbiker .menu-principal ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
 }
 
-header .main-header .main-nav ul li a:hover {
+header .logo-motorbiker .menu-principal ul li a:hover {
     background-color: #444;
 }
 
-header .main-header .search-cart {
+header .logo-motorbiker .seccion-users {
     display: flex;
     align-items: center;
 }
 
-header .main-header .search-cart input {
+header .logo-motorbiker .seccion-users input {
     padding: 0.5rem;
     margin-right: 1rem;
     border: none;
     border-radius: 3px;
 }
 
-header .main-header .search-cart .cart-icon,
-header .main-header .search-cart .user-icon {
+header .logo-motorbiker .seccion-users .cart-icon,
+header .logo-motorbiker .seccion-users .user-icon {
     font-size: 1.5rem;
     margin-left: 1rem;
     cursor: pointer;
+}
+
+header .imagen img{
+    width: 100%;
+    height: auto;
 }
